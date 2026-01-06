@@ -59,6 +59,7 @@
   color: rgba(0, 0, 0, 0.5);
   transition: opacity 0.2s ease;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  display: none;
 }
 
 .dot-red .dot-icon {
