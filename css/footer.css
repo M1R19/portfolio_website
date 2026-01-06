@@ -1,0 +1,47 @@
+/* ===== FOOTER ===== */
+.footer {
+  text-align: center;
+  padding: 40px 20px 30px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.social-icon {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--card-bg);
+  box-shadow: var(--shadow-soft);
+  transition: all 0.3s;
+  border: 1px solid var(--border-subtle);
+}
+
+.social-icon:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-card);
+}
+
+.social-icon svg {
+  width: 20px;
+  height: 20px;
+  fill: var(--text-mid);
+  transition: fill 0.3s;
+}
+
+.social-icon:hover svg {
+  fill: var(--accent);
+}
+
+.copyright {
+  font-family: 'DM Mono', monospace;
+  font-size: 11px;
+  color: var(--text-light);
+}

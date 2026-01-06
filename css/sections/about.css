@@ -1,0 +1,130 @@
+/* ===== ABOUT SECTION ===== */
+.about-header {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  margin-bottom: 28px;
+}
+
+.about-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: var(--bg-tertiary);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.about-avatar svg {
+  width: 100%;
+  height: 100%;
+}
+
+.about-info h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 4px;
+}
+
+.about-info .subtitle {
+  font-family: 'DM Mono', monospace;
+  font-size: 12px;
+  color: var(--text-light);
+}
+
+.about-bio {
+  margin-bottom: 28px;
+}
+
+.about-bio p {
+  color: var(--text-mid);
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: 14px;
+}
+
+.skills-list {
+  list-style: none;
+  margin: 14px 0;
+}
+
+.skills-list li {
+  color: var(--text-mid);
+  font-size: 15px;
+  line-height: 1.8;
+  padding-left: 20px;
+  position: relative;
+}
+
+.skills-list li::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+}
+
+.skills-list a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s;
+}
+
+.skills-list a:hover {
+  border-color: var(--accent);
+}
+
+.contact-cta {
+  background: var(--faq-bg);
+  padding: 18px 22px;
+  border-radius: var(--radius-sm);
+  font-size: 14px;
+  color: var(--text-mid);
+  margin-top: 18px;
+}
+
+.contact-cta a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.section-divider {
+  height: 1px;
+  background: var(--border-subtle);
+  margin: 26px 0;
+}
+
+.section-title {
+  font-family: 'DM Mono', monospace;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  color: var(--text-light);
+  margin-bottom: 14px;
+}
+
+.info-item {
+  margin-bottom: 14px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.info-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.info-item h4 {
+  color: var(--text-dark);
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 2px;
+}
+
+.info-item p {
+  color: var(--text-mid);
+  font-size: 13px;
+}

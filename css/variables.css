@@ -1,0 +1,43 @@
+/* ===== EARTHY WARM THEME (DEFAULT) ===== */
+:root {
+  --bg-primary: #faf6f1;
+  --bg-secondary: #f5ebe0;
+  --bg-tertiary: #ede0d4;
+  --card-bg: #ffffff;
+  --header-bg: #4a4033;
+  --accent: #c77b4a;
+  --accent-hover: #a8623a;
+  --accent-light: #e8d5c4;
+  --text-dark: #3d3229;
+  --text-mid: #6b5b4f;
+  --text-light: #9a8b7a;
+  --faq-bg: #fdf8f3;
+  --shadow-soft: 0 10px 40px rgba(61, 50, 41, 0.08);
+  --shadow-card: 0 20px 60px rgba(61, 50, 41, 0.12);
+  --border-subtle: rgba(61, 50, 41, 0.08);
+  --radius: 16px;
+  --radius-sm: 10px;
+  --gradient-bg: linear-gradient(135deg, #faf6f1 0%, #f5ebe0 50%, #ede0d4 100%);
+  --leaf-color: rgba(139, 119, 101, 0.08);
+}
+
+/* ===== DARK MODE THEME ===== */
+.dark-mode {
+  --bg-primary: #1a1614;
+  --bg-secondary: #252019;
+  --bg-tertiary: #2f2820;
+  --card-bg: #2a2420;
+  --header-bg: #1a1614;
+  --accent: #d4956a;
+  --accent-hover: #e8a97e;
+  --accent-light: #3d3229;
+  --text-dark: #f5ebe0;
+  --text-mid: #c4b5a5;
+  --text-light: #8a7b6a;
+  --faq-bg: #322b24;
+  --shadow-soft: 0 10px 40px rgba(0, 0, 0, 0.3);
+  --shadow-card: 0 20px 60px rgba(0, 0, 0, 0.4);
+  --border-subtle: rgba(255, 255, 255, 0.06);
+  --gradient-bg: linear-gradient(135deg, #1a1614 0%, #252019 50%, #2f2820 100%);
+  --leaf-color: rgba(212, 149, 106, 0.06);
+}

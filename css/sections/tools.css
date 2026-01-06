@@ -1,0 +1,34 @@
+/* ===== TOOLS SECTION ===== */
+.tools-section {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.tools-category h4 {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 14px;
+}
+
+.tools-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tool-item {
+  background: var(--accent-light);
+  color: var(--text-dark);
+  font-size: 13px;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 20px;
+  transition: all 0.2s;
+}
+
+.tool-item:hover {
+  background: var(--accent);
+  color: white;
+}

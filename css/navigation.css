@@ -1,0 +1,48 @@
+/* ===== NAVIGATION GRID ===== */
+.nav-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 22px 12px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  background: transparent;
+}
+
+.nav-item:hover {
+  background: var(--faq-bg);
+  transform: translateY(-5px);
+}
+
+.nav-icon {
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  border-radius: 14px;
+  font-size: 26px;
+  background: var(--accent-light);
+  transition: all 0.3s;
+}
+
+.nav-item:hover .nav-icon {
+  background: var(--accent);
+  transform: scale(1.08);
+}
+
+.nav-label {
+  font-family: 'DM Mono', monospace;
+  font-size: 11px;
+  text-transform: lowercase;
+  color: var(--text-mid);
+  letter-spacing: 0.5px;
+}
