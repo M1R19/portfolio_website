@@ -163,6 +163,18 @@ const modalData = {
   faq: `
     <div class="faq-container">
       <div class="faq-item" onclick="toggleFaq(this)">
+        <button class="faq-question">what do you work on?<span class="faq-chevron">▼</span></button>
+        <div class="faq-answer"><div class="faq-answer-inner">I focus on applied economics and financial analysis, including data analysis, econometrics, policy evaluation, and institutional research. Most of my projects combine quantitative work with clear written insights.</div></div>
+      </div>
+      <div class="faq-item" onclick="toggleFaq(this)">
+        <button class="faq-question">what tools do you use?<span class="faq-chevron">▼</span></button>
+        <div class="faq-answer"><div class="faq-answer-inner">I primarily work with Python, R, Stata, and Excel/Google Sheets for data analysis and visualization. For writing and presentations, I use LaTeX, Word, and slide decks depending on the project.</div></div>
+      </div>
+      <div class="faq-item" onclick="toggleFaq(this)">
+        <button class="faq-question">are you available for internships or roles?<span class="faq-chevron">▼</span></button>
+        <div class="faq-answer"><div class="faq-answer-inner">Yes. I'm open to internships, research roles, analyst positions, and project-based collaborations related to economics, finance, policy, or consulting.</div></div>
+      </div>
+      <div class="faq-item" onclick="toggleFaq(this)">
         <button class="faq-question">what kind of roles are you interested in?<span class="faq-chevron">▼</span></button>
         <div class="faq-answer"><div class="faq-answer-inner">Economic research, financial analysis, policy analysis, consulting, and roles involving data-driven decision-making and risk analysis.</div></div>
       </div>
@@ -179,8 +191,12 @@ const modalData = {
         <div class="faq-answer"><div class="faq-answer-inner">Yes. I'm open to collaborative research, case studies, and analytical projects—especially those involving economics, public policy, or financial systems.</div></div>
       </div>
       <div class="faq-item" onclick="toggleFaq(this)">
-        <button class="faq-question">what's your preferred work style?<span class="faq-chevron">▼</span></button>
-        <div class="faq-answer"><div class="faq-answer-inner">I enjoy structured problem-solving, independent research with periodic collaboration, and communicating complex findings clearly.</div></div>
+        <button class="faq-question">how can i contact you?<span class="faq-chevron">▼</span></button>
+        <div class="faq-answer"><div class="faq-answer-inner">The best way to reach me is by email at <a href="mailto:sohambhingarde1@gmail.com">sohambhingarde1@gmail.com</a></div></div>
+      </div>
+      <div class="faq-item" onclick="toggleFaq(this)">
+        <button class="faq-question">can i see examples of your work?<span class="faq-chevron">▼</span></button>
+        <div class="faq-answer"><div class="faq-answer-inner">Yes — selected projects and summaries are available in the "work" section of this site, with links to write-ups, data analysis, or decks where applicable.</div></div>
       </div>
     </div>
   `,
