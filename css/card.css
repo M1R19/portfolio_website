@@ -2,9 +2,13 @@
 .container {
   max-width: 600px;
   margin: 0 auto;
-  padding: 100px 20px 40px;
+  padding: 60px 20px 20px;
   position: relative;
   z-index: 1;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* ===== MAIN CARD ===== */
@@ -53,5 +57,5 @@
 }
 
 .card-content {
-  padding: 45px 40px;
+  padding: 30px 40px;
 }
