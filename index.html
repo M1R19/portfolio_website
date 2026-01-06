@@ -873,6 +873,24 @@
       text-align: center;
     }
 
+    .contact-avatar {
+      width: 120px;
+      height: 120px;
+      margin: 0 auto 20px;
+      animation: walkingAvatar 2s ease-in-out infinite;
+    }
+
+    .contact-avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    @keyframes walkingAvatar {
+      0%, 100% { transform: translateX(-20px); }
+      50% { transform: translateX(20px); }
+    }
+
     .contact-email {
       font-size: 18px;
       color: var(--text-dark);
@@ -984,7 +1002,7 @@
           <div class="avatar-container">
             <div class="avatar-ring"></div>
             <div class="avatar">
-              <img src="avatar.png" alt="Soham Bhingarde" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+              <img src="assets/avatars/avtar1.jpeg" alt="Soham Bhingarde" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
             </div>
           </div>
           <h1 class="profile-name">Soham Bhingarde</h1>
@@ -993,7 +1011,7 @@
 
         <div class="nav-grid">
           <div class="nav-item" onclick="openModal('about')">
-            <div class="nav-icon">👤</div>
+            <div class="nav-icon" style="padding: 0; overflow: hidden;"><img src="assets/avatars/avtar2.jpeg" alt="About" style="width: 100%; height: 100%; object-fit: cover; border-radius: 14px;"></div>
             <span class="nav-label">about</span>
           </div>
           <div class="nav-item" onclick="openModal('links')">
@@ -1074,7 +1092,7 @@
       about: `
         <div class="about-header">
           <div class="about-avatar">
-            <img src="avatar.png" alt="Soham Bhingarde" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+            <img src="assets/avatars/avtar2.jpeg" alt="Soham Bhingarde" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
           </div>
           <div class="about-info">
             <h2>Soham Bhingarde</h2>
@@ -1253,6 +1271,9 @@
       `,
       contact: `
         <div class="contact-section">
+          <div class="contact-avatar">
+            <img src="assets/avatars/avtar3.jpeg" alt="Soham">
+          </div>
           <p class="contact-email">email me at: <a href="mailto:sohambhingarde1@gmail.com">sohambhingarde1@gmail.com</a></p>
           <p class="contact-note">or press the button below to open your mail app.</p>
           <a href="mailto:sohambhingarde1@gmail.com"><button class="email-btn">send me an email!</button></a>
