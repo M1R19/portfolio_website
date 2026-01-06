@@ -188,7 +188,7 @@ const modalData = {
   contact: `
     <div class="contact-section">
       <div class="contact-avatar">
-        <img src="assets/avatars/avtar4.jpeg" alt="Soham">
+        <img src="assets/avatars/Avatar4.png" alt="Soham">
       </div>
       <p class="contact-email">email me at: <a href="mailto:sohambhingarde1@gmail.com">sohambhingarde1@gmail.com</a></p>
       <p class="contact-note">or press the button below to open your mail app.</p>
