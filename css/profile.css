@@ -58,3 +58,11 @@
   color: var(--text-light);
   letter-spacing: 0.5px;
 }
+
+.profile-subtitle {
+  font-family: 'DM Mono', monospace;
+  font-size: 12px;
+  color: var(--text-light);
+  letter-spacing: 0.5px;
+  margin-top: 6px;
+}
