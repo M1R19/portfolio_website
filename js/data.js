@@ -1,18 +1,18 @@
 // Modal content data
 const modalData = {
-  about: `
-    <div class="about-header">
-      <div class="about-avatar">
-        <img src="assets/avatars/avtar3.jpeg" alt="Soham Bhingarde" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
-      </div>
-      <div class="about-info">
-        <h2>Soham Bhingarde</h2>
-        <p class="subtitle">NY-based financial and economics analyst</p>
-      </div>
-    </div>
-    <div class="about-bio">
-      <p>hello! i'm soham, an economics student and analyst.</p>
-      <p>I...</p>
+      about: `
+        <div class="about-header">
+          <div class="about-avatar">
+            <img src="assets/avatars/avtar3.jpeg" alt="Soham Bhingarde" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+          </div>
+          <div class="about-info">
+            <h2>Soham Bhingarde</h2>
+            <p class="subtitle">NY-based financial and economics analyst</p>
+          </div>
+        </div>
+        <div class="about-bio">
+          <p>hello! i'm soham, an economics student and analyst.</p>
+          <p><span class="about-i">I</span><span class="about-ellipsis">...</span></p>
       <ul class="skills-list">
         <li>analyze <a href="#">data and financial statements</a>,</li>
         <li>create <a href="#">policies</a>,</li>
