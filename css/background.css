@@ -15,7 +15,7 @@
   position: absolute;
   border-radius: 50%;
   background: var(--leaf-color);
-  animation: float 20s ease-in-out infinite;
+  animation: float 8s ease-in-out infinite;
 }
 
 .shape-1 {

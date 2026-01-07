@@ -21,7 +21,7 @@
 }
 
 .about-info h2 {
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 700;
   color: var(--text-dark);
   margin-bottom: 4px;
@@ -29,7 +29,8 @@
 
 .about-info .subtitle {
   font-family: 'DM Mono', monospace;
-  font-size: 12px;
+  font-size: 13px;
+  font-weight: 600;
   color: var(--text-light);
 }
 
@@ -39,9 +40,14 @@
 
 .about-bio p {
   color: var(--text-mid);
-  font-size: 15px;
+  font-size: 16px;
+  font-weight: 600;
   line-height: 1.7;
   margin-bottom: 14px;
+}
+
+.about-bio p:has(.about-i) {
+  margin-bottom: 4px;
 }
 
 .skills-list {
@@ -51,7 +57,8 @@
 
 .skills-list li {
   color: var(--text-mid);
-  font-size: 15px;
+  font-size: 16px;
+  font-weight: 600;
   line-height: 1.8;
   padding-left: 20px;
   position: relative;
@@ -79,7 +86,8 @@
   background: var(--faq-bg);
   padding: 18px 22px;
   border-radius: var(--radius-sm);
-  font-size: 14px;
+  font-size: 15px;
+  font-weight: 600;
   color: var(--text-mid);
   margin-top: 18px;
 }
@@ -98,7 +106,8 @@
 
 .section-title {
   font-family: 'DM Mono', monospace;
-  font-size: 11px;
+  font-size: 12px;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 2.5px;
   color: var(--text-light);
@@ -119,12 +128,13 @@
 
 .info-item h4 {
   color: var(--text-dark);
-  font-weight: 600;
-  font-size: 15px;
+  font-weight: 700;
+  font-size: 16px;
   margin-bottom: 2px;
 }
 
 .info-item p {
   color: var(--text-mid);
-  font-size: 13px;
+  font-size: 14px;
+  font-weight: 600;
 }
